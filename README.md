@@ -15,6 +15,7 @@
 
 * 5. Deploy the MariaDB Galera cluster with LDAP authentication enabled.
 
+    -- helm repo add demo https://charts.app-catalog.vmware.com/demo
     -- helm install -f values.yaml my-release demo/mariadb-galera
 
 # See <a href="https://docs.bitnami.com/tutorials/create-openldap-server-kubernetes/"> Guide </a>
